@@ -1,0 +1,28 @@
+@import 'book_info.css';
+
+.middle-info {
+    flex: 4;
+}
+
+.bottom {
+    display: flex;
+    flex: 3;
+}
+
+.bottom-left {
+    flex: 4;
+}
+
+.bottom-right {
+    flex: 6;
+}
+
+.bottom-right > button {
+    height: 30%;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.input-hybrid > input {
+    height: 30px;
+}
